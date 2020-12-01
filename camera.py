@@ -3,7 +3,7 @@ from imutils import paths
 import numpy as np
 import imutils
 import cv2
-#from steer import * 
+from steer import * 
 def find_marker(image):
 	# convert the image to grayscale, blur it, and detect edges
 	gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
