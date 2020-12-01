@@ -69,21 +69,4 @@ YAD2K assumes the Keras backend is Tensorflow. In particular for YOLO_v2 models 
 
 `train_overfit` is a sample training script that overfits a YOLO_v2 model to a single image from the Pascal VOC dataset.
 
-## Known Issues and TODOs
-
-- Expand sample training script to train YOLO_v2 reference model on full dataset.
-- Support for additional Darknet layer types.
-- Tuck away the Tensorflow dependencies with Keras wrappers where possible.
-- YOLO_v2 model does not support fully convolutional mode. Current implementation assumes 1:1 aspect ratio images.
-
-## Darknets of Yore
-
-YAD2K stands on the shoulders of giants.
-
-- :fire: [Darknet](https://github.com/pjreddie/darknet) :fire:
-- [Darknet.Keras](https://github.com/sunshineatnoon/Darknet.keras) - The original D2K for YOLO_v1.
-- [Darkflow](https://github.com/thtrieu/darkflow) - Darknet directly to Tensorflow.
-- [caffe-yolo](https://github.com/xingwangsfu/caffe-yolo) - YOLO_v1 to Caffe.
-- [yolo2-pytorch](https://github.com/longcw/yolo2-pytorch) - YOLO_v2 in PyTorch.
-
 --------------------------------------------------------------------------------
